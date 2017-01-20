@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Telegram",
+    "description": "Telegram WebApp",
+    "version": "1.0",
+    "icons": {
+        "128": "128.png"
+    },
+    "app": {
+        "urls": [
+            "https://web.telegram.org/#/im"
+
+        ],
+        "launch": {
+            "web_url": "https://web.telegram.org/#/im"
+        }
+    },
+    "permissions": [
+        "unlimitedStorage",
+        "notifications"
+    ]
+}

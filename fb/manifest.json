@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Facebook",
+    "description": "Facebook WebApp",
+    "version": "1.0",
+    "icons": {
+        "128": "128.png"
+    },
+    "app": {
+        "urls": [
+            "http://facebook.com"
+
+        ],
+        "launch": {
+            "web_url": "http://facebook.com"
+        }
+    },
+    "permissions": [
+        "unlimitedStorage",
+        "notifications"
+    ]
+}
