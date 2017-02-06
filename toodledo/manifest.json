@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Toodledo",
+    "description": "Toodledo WebApp",
+    "version": "1.0",
+    "icons": {
+        "128": "128.png"
+    },
+    "app": {
+        "urls": [
+            "https://www.toodledo.com/tasks/index.php"
+
+        ],
+        "launch": {
+            "web_url": "https://www.toodledo.com/tasks/index.php"
+        }
+    },
+    "permissions": [
+        "unlimitedStorage",
+        "notifications"
+    ]
+}
